@@ -1,7 +1,6 @@
-from import_module import *
+from spark.widget.import_module import *
 
-
-from widget.sample.styleSheet import StyleSheet
+from spark.widget.sample import styleSheet
 from spark.widget.sample.sample_qt_widget_template import common_property
 #from importlib import reload
 for each in [styleSheet, common_property]:
