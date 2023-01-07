@@ -1,7 +1,9 @@
 
+print(help(import_module))
+#from import_module import *
 
 
-
+'''
 
 from widget.sample import sample_widget_template
 from widget.sample import sample_color_variable
@@ -60,19 +62,18 @@ class SAMPLE_WIDGET(QMainWindow):
 
         self.main_central_horizontal_layour = self.sample_widget_template.horizontal_layout(parent_self=self.sample_central_widget,
                                                                                             set_object_name='main_central_horizontal_layour')
-        '''
+        \'''
         main_widget_object = 'main_widget'
         main_widget_styleSheet = self.sample_widget_template.styleSheet_def(obj_name=main_widget_object,
                                                                             background_color=self.color_variable_class.background_another_color.get_value())
         self.main_widget = self.sample_widget_template.widget_def(parent_self=sample_central_widget_object,
                                                                   set_object_name=main_widget_object,
                                                                   set_styleSheet=main_widget_styleSheet)
-        '''
+        \'''
         self.main_central_horizontal_layour.addWidget(self.main_widget)
 
     def get_main_widget(self):
         return self.sample_central_widget
 
 
-
-
+'''
