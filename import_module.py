@@ -23,5 +23,3 @@ except:
                                 'please install any of this and run command again')
 
 
-widget = QWidget()
-widget.show()
