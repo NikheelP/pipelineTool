@@ -1,7 +1,6 @@
 
-print(help(import_module))
-#from import_module import *
 
+from mainScript.import_module import *
 
 '''
 
